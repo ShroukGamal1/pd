@@ -1,0 +1,11 @@
+name: create workflow
+
+on: push
+jobs:
+    firstjob:
+        runs-on: ubuntu-latest
+        steps: 
+            - name: print msg
+              run: echo "firstworkflow"
+
+
